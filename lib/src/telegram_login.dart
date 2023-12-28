@@ -92,7 +92,7 @@ class TelegramLogin {
         'first_name': firstName,
         'last_name': lastName,
         'user_name': username,
-        'photo_url': photoUrl,
+        'photo_url': photoUrl.replaceAll('\\/', '/'),
         'phone': _phoneNumber,
       };
     } catch (e) {
