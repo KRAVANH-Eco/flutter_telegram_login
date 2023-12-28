@@ -5,4 +5,4 @@ import 'package:url_launcher/url_launcher.dart';
 
 part 'src/helper.dart';
 part 'src/session.dart';
-part 'src/telegram_manager.dart';
+part 'src/telegram_login.dart';

@@ -1,9 +1,9 @@
 part of flutter_telegram_login;
 
-class TelegramManager {
-  static TelegramManager? _instance;
-  static TelegramManager get instance {
-    _instance = _instance ?? TelegramManager();
+class TelegramLogin {
+  static TelegramLogin? _instance;
+  static TelegramLogin get instance {
+    _instance = _instance ?? TelegramLogin();
     return _instance!;
   }
 
@@ -14,7 +14,7 @@ class TelegramManager {
   late String _botDomain;
   late String _acceptUrl = '';
 
-  TelegramManager();
+  TelegramLogin();
 
   Future<Map<String, String>?> loginTelegram({
     required String phone,
